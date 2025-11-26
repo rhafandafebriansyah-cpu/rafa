@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Rhafanda - Netflix Blue</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #071a3c;
+            font-family: Arial, sans-serif;
+            color: #e0edff;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #0f2c64;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #1a4da6;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #4da3ff;
+            text-shadow: 0 0 5px #56b3ff;
+        }
+
+        .menu a {
+            color: #cfe3ff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            color: #ffffff;
+        }
+
+        /* HERO */
+        .hero {
+            height: 85vh;
+            background: linear-gradient(rgba(5, 15, 40, 0.6), rgba(5, 15, 40, 0.6)),
+                        url('https://i.imgur.com/En8A5zY.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 60px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            max-width: 600px;
+            color: #5fbaff;
+        }
+
+        .hero p {
+            font-size: 22px;
+            max-width: 500px;
+            margin-top: -10px;
+        }
+
+        .btn {
+            margin-top: 25px;
+            background-color: #4da3ff;
+            color: #00172e;
+            padding: 14px 25px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            background-color: #6bb8ff;
+        }
+
+        /* SECTION */
+        .section {
+            padding: 30px 40px;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+            color: #67b3ff;
+        }
+
+        .movies {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+        }
+
+        .movies img {
+            width: 180px;
+            border-radius: 6px;
+            transition: 0.3s;
+            border: 2px solid #1e4a99;
+        }
+
+        .movies img:hover {
+            transform: scale(1.1);
+            border-color: #4da3ff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">M Rhafanda</div>
+        <div class="menu">
+            <a href="#">Beranda</a>
+            <a href="#">Film</a>
+            <a href="#">Series</a>
+            <a href="#">Akun</a>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+        <h1>Nikmati Film & Series Favoritmu</h1>
+        <p>Selamat datang di platform hiburan M Rhafanda — versi Netflix Blue.</p>
+        <button class="btn">Tonton Sekarang</button>
+    </div>
+
+    <!-- SECTION FILM -->
+    <div class="section">
+        <h2>Rekomendasi Film</h2>
+        <div class="movies">
+            <img src="download (13) (1).jpg" alt="Film 1">
+            <img src="download (13) (1).jpg" alt="Film 2">
+            <img src="download (13) (1).jpg" alt="Film 3">
+            <img src="download (13) (1).jpg" alt="Film 4">
+            <img src="download (13) (1).jpg" alt="Film 5">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Series Populer</h2>
+        <div class="movies">
+            <img src="Nama: beckham putra nugraha" alt="Series 1">
+            <img src="TTL: Bandung 29 oktober 2001" alt="Series 2">
+            <img src="club: Persib Bandung" alt="Series 3">
+            <img src="prestasi: juara bri liga 1" alt="Series 4">
+        </div>
+    </div>
+
+</body>
+</html>
